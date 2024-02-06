@@ -1,6 +1,8 @@
 import React from 'react'
 import Product from './Product'
 import { useRef } from 'react';
+import { FaAngleRight } from "react-icons/fa6";
+import { BsCaretRightFill } from "react-icons/bs";
 // import img1 from '/Coursel Img/img1.jpg'
 // import img2 from '/Coursel Img/img2.jpg'
 // import img3 from '/Coursel Img/img3.jpg'
@@ -100,7 +102,7 @@ function Coursel({num}) {
             <div className='my-4 lg:mx-24 md:mx-10 '>
                 <div className='flex justify-between px-[10px] cursor-pointer' onClick={()=>{close(a)}}>
                     <h1 className='font-[600]'>Online Courses {num}</h1>
-                    <p className='w-[20px] h-[20px]'></p>
+                    <p className=''>{BsCaretRightFill}</p>
                 </div>
                 <div ref={container} className='flex items-center justify-between gap-2 overflow-hidden xl:gap-8 overflow-x-auto scroll-smooth w-100 p-[10px]'>
                     {cards.map((c) => (

@@ -1,7 +1,7 @@
 import React from "react";
 function Product(props) {
     return (
-    <div className="w-[250px] h-auto  rounded-lg flex-shrink-0 cursor-pointer md:shadow-lg" >
+    <div className="w-[250px] h-auto  rounded-lg flex-shrink-0 cursor-pointer md:shadow-md" >
       <div className="bg-transparent w-full h-[150px] ">
         <img  className="w-full h-full rounded-t-lg"
           src={props.img}

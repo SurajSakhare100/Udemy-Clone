@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaGlobe } from "react-icons/fa";
 
 function Navbar() {
     return (
@@ -17,11 +18,11 @@ function Navbar() {
                             placeholder='Search for Anything' /></li>
                     <li><a href="#">Udemy Bussiness</a></li>
                     <li className='hidden'><a href="">
-                        <button className='w-full h-ful text-sm font-bold rounded-sm py-1 px-2 shadow-md'>S</button></a>
+                        <button className='w-full h-ful text-sm font-bold rounded-sm py-1 px-2 shadow-md'></button></a>
                     </li>
                     <li><a href="#">Teach on Udemy</a></li>
                     <li><a href="">
-                        <button className='w-full h-ful text-sm font-bold rounded-sm py-1 px-2 shadow-md'>S</button></a>
+                        <button className='w-full h-ful text-sm font-bold rounded-sm py-1 px-2 shadow-md'>{FaGlobe}</button></a>
                     </li>
                     <li className='h-3/4'><a href="">
                         <button className='w-full h-full bg-white rounded-sm text-black font-bold py-1 px-2 shadow-md'>Log in</button></a>
@@ -29,9 +30,9 @@ function Navbar() {
                     <li className='h-3/4'><a href="">
                         <button className='w-full h-full bg-black border text-sm font-bold rounded-sm py-1 px-2 shadow-md'>Sign Up</button></a>
                     </li>
-                    <li className='h-3/4'><a href="">
+                    {/* <li className='h-3/4'><a href="">
                         <button className='w-full h-full bg-white rounded-sm text-black font-bold py-1 px-2 shadow-md'>L</button></a>
-                    </li>
+                    </li> */}
 
                 </ul>
             </nav>
