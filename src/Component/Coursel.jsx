@@ -1,16 +1,16 @@
 import React from 'react'
 import Product from './Product'
 import { useRef } from 'react';
-import img1 from '/public/Coursel Img/img1.jpg'
-import img2 from '/public/Coursel Img/img2.jpg'
-import img3 from '/public/Coursel Img/img3.jpg'
-import img4 from '/public/Coursel Img/img4.png'
-import img5 from '/public/Coursel Img/img5.jpeg'
-import img6 from '/public/Coursel Img/img6.jpg'
-import img7 from '/public/Coursel Img/img7.webp'
-import img8 from '/public/Coursel Img/img8.jpg'
-import img9 from '/public/Coursel Img/img9.avif'
-import img10 from '/public/Coursel Img/img10.png'
+import img1 from '/Coursel Img/img1.jpg'
+import img2 from '/Coursel Img/img2.jpg'
+import img3 from '/Coursel Img/img3.jpg'
+import img4 from '/Coursel Img/img4.png'
+import img5 from '/Coursel Img/img5.jpeg'
+import img6 from '/Coursel Img/img6.jpg'
+import img7 from '/Coursel Img/img7.webp'
+import img8 from '/Coursel Img/img8.jpg'
+import img9 from '/Coursel Img/img9.avif'
+import img10 from '/Coursel Img/img10.png'
 function Coursel({num}) {
     const cards = [
         {
@@ -102,7 +102,7 @@ function Coursel({num}) {
                     <h1 className='font-[600]'>Online Courses {num}</h1>
                     <p className='w-[20px] h-[20px]'></p>
                 </div>
-                <div ref={container} className='flex items-center justify-between gap-2 overflow-hidden md:gap-8 overflow-x-auto scroll-smooth w-100 p-[10px]'>
+                <div ref={container} className='flex items-center justify-between gap-2 overflow-hidden xl:gap-8 overflow-x-auto scroll-smooth w-100 p-[10px]'>
                     {cards.map((c) => (
                         <Product key={c.id} title={c.title} p_name={c.professorName} price={c.price} img={c.img} />
                     ))}

@@ -13,7 +13,7 @@ function Product(props) {
           {props.title}
         </h1>
         <p className="text-[10px]">{props.p_name}</p>
-        <p className="text-[10px]">{props.price}</p>
+        <p className="text-[16px] font-bold">{props.price}</p>
       </div>
     </div>
   );
