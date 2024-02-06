@@ -3,7 +3,7 @@ import React from 'react'
 function Navbar() {
     return (
         <div className='w-full h-[60px] shadow-xl'>
-            <nav className="w-full h-full py-2 sm:bg-black text-white p-4">
+            <nav className="w-full h-full py-2 bg-black text-white p-4">
                 <ul className='w-full h-full flex flex-row items-center justify-between'>
                     <li className='md:hidden '><a href="">
                         <button className='w-full h-ful text-sm font-bold rounded-sm py-1 px-2 shadow-md'>S</button></a>
