@@ -1,19 +1,7 @@
 import React from 'react'
 import Product from './Product'
 import { useRef } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { fas, far, fal } from '@awesome.me/kit-KIT_CODE/icons'
-const element = <FontAwesomeIcon icon="fa-solid fa-house" />
-// import img1 from '/Coursel Img/img1.jpg'
-// import img2 from '/Coursel Img/img2.jpg'
-// import img3 from '/Coursel Img/img3.jpg'
-// import img4 from '/Coursel Img/img4.png'
-// import img5 from '/Coursel Img/img5.jpeg'
-// import img6 from '/Coursel Img/img6.jpg'
-// import img7 from '/Coursel Img/img7.webp'
-// import img8 from '/Coursel Img/img8.jpg'
-// import img9 from '/Coursel Img/img9.avif'
-// import img10 from '/Coursel Img/img10.png'
+
 function Coursel({num}) {
     const cards = [
         {
