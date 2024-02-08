@@ -8,7 +8,7 @@ function Coursel({num}) {
             id: 1,
             title: "Introduction to Web Development",
             professorName: "Dr. Sarah Johnson",
-            price: "$29.99",
+            price: "$49.99",
             img: '/Coursel Img/img1.jpg'
         },
         {
