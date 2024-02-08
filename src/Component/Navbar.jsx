@@ -13,7 +13,7 @@ function Navbar() {
                         </NavLink>
                     </li> */}
                     <li><NavLink to="/">Udemy</NavLink></li>
-                    <li><NavLink to="/categories">Categories</NavLink></li>
+                    <li><NavLink to="/categories">Categories :</NavLink></li>
                     <li className='lg:w-1/2 lg:h-3/4 '>
                         <input
                             className='w-full h-full rounded-2xl outline-none text-black px-3 text-sm shadow-lg'
