@@ -16,7 +16,7 @@ function Product(props) {
         <p className="text-[16px] font-bold">{props.price}</p>
       </div>
       <div className="w-100 flex items-center py-1 px-2 my-1 ">
-        <button className="w-1/2 h-100 bg-purple-600 rounded-3xl font-bold py-1.5 shadow-2xl">Enroll now</button>
+        <button className="w-1/2 h-100 bg-black text-white rounded-3xl font-bold py-1.5 shadow-sm shadow-black">Enroll now</button>
       </div>
     </div>
   );
