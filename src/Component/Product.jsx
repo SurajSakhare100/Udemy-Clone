@@ -8,12 +8,15 @@ function Product(props) {
           alt=""
         />
       </div>
-      <div className="flex flex-col text-black py-2 px-1">
+      <div className="w-100 h-[75px] flex flex-col text-black py-2 px-2">
         <h1 className="text-[14px] lg:text-md font-bold">
           {props.title}
         </h1>
         <p className="text-[10px]">{props.p_name}</p>
         <p className="text-[16px] font-bold">{props.price}</p>
+      </div>
+      <div className="w-100 flex items-center py-1 px-2 my-1 ">
+        <button className="w-1/2 h-100 bg-purple-600 rounded-3xl font-bold py-1.5 shadow-2xl">Enroll now</button>
       </div>
     </div>
   );
