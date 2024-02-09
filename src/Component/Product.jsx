@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 function Product(props) {
 
-  
+
     return (
     <div className="w-[250px] h-auto  rounded-lg flex-shrink-0 cursor-pointer md:shadow-md" >
       <div className="bg-transparent w-full h-[150px] ">
@@ -18,7 +19,9 @@ function Product(props) {
         <p className="text-[16px] font-bold">{props.price}</p>
       </div>
       <div className="w-100 flex items-center py-1 px-2 my-1 ">
+       <Link to='productpage'> 
         <button className="w-1/2 h-100 bg-black text-white rounded-3xl font-bold py-1.5 shadow-sm shadow-black">Enroll now</button>
+       </Link>
       </div>
     </div>
   );
