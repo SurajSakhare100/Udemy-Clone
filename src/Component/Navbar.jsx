@@ -12,15 +12,15 @@ function Navbar() {
                         </NavLink>
                     </li> */}
                     <li><NavLink to="/">Udemy</NavLink></li>
-                    <li><NavLink to="/categories">Categories :</NavLink></li>
+                    <li><NavLink to="/categories">Categories</NavLink></li>
                     <li className='lg:w-1/2 lg:h-3/4 '>
                         <input
                             className='w-full h-full rounded-2xl outline-none text-black px-3 text-sm shadow-lg'
                             type="text"
                             placeholder='Search for Anything' /></li>
                     <li><NavLink to="/about">About Us</NavLink></li>
-                    <li className=''><NavLink to="/productpage">
-                        <button className='w-full h-ful text-sm font-bold rounded-sm py-1 px-2 shadow-md'>PP</button></NavLink>
+                    <li className='hidden'><NavLink to="/productpage">
+                        <button className='w-full h-ful text-sm font-bold rounded-sm py-1 px-2 shadow-md'></button></NavLink>
                     </li>
                     <li><NavLink to="/contact">Contact Us</NavLink></li>
                     <li><NavLink to="/#">
