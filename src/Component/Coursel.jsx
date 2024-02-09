@@ -91,7 +91,7 @@ function Coursel({num}) {
             <div className='my-4 lg:mx-24 md:mx-10 '>
                 <div className='flex justify-between px-[10px] cursor-pointer' onClick={()=>{close(a)}}>
                     <h1 className='font-[600]'>Online Courses {num}</h1>
-                    <p className=''>{element}</p>
+                    <p className=''></p>
                 </div>
                 <div ref={container} className='flex items-center justify-between gap-2 overflow-hidden xl:gap-8 overflow-x-auto scroll-smooth w-100 p-[10px]'>
                     {cards.map((c) => (

@@ -14,6 +14,7 @@ import Contact from './Component/Contact.jsx';
 import Login from './Component/Login.jsx';
 import SignUp from './Component/SignUp.jsx';
 import Home from './Component/Home.jsx';
+import ProductPage from './Component/ProductPage.jsx';
 
 // const router = createBrowserRouter([
 //   {
@@ -77,6 +78,10 @@ const router = createBrowserRouter(
     <Route
       path="signup"
       element={<SignUp />}
+    />
+    <Route
+      path="productpage"
+      element={<ProductPage />}
     />
     </Route>
   </Route>

@@ -1,5 +1,4 @@
 import React from 'react'
-
 function About() {
   return (
     <div className='h-screen flex flex-col w-100 items-center justify-center'>

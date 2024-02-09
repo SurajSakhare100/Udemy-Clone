@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaGlobe } from "react-icons/fa";
 import { Link,NavLink } from 'react-router-dom';
 
 function Navbar() {
@@ -20,12 +19,12 @@ function Navbar() {
                             type="text"
                             placeholder='Search for Anything' /></li>
                     <li><NavLink to="/about">About Us</NavLink></li>
-                    <li className='hidden'><NavLink to="/ss">
-                        <button className='w-full h-ful text-sm font-bold rounded-sm py-1 px-2 shadow-md'></button></NavLink>
+                    <li className=''><NavLink to="/productpage">
+                        <button className='w-full h-ful text-sm font-bold rounded-sm py-1 px-2 shadow-md'>PP</button></NavLink>
                     </li>
                     <li><NavLink to="/contact">Contact Us</NavLink></li>
                     <li><NavLink to="/#">
-                        <button className='w-full h-ful text-sm font-bold rounded-sm py-1 px-2 shadow-md'>{FaGlobe}</button></NavLink>
+                        <button className='w-full h-ful text-sm font-bold rounded-sm py-1 px-2 shadow-md'></button></NavLink>
                     </li>
                     <li className='h-3/4'>
                         <NavLink to="/login">
