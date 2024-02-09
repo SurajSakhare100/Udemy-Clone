@@ -11,7 +11,7 @@ import {
 import Categories from './Component/Categories.jsx';
 import About from './Component/About.jsx';
 import Contact from './Component/Contact.jsx';
-import Login from './Component/Login.jsx';
+import Login from './Component/LogIn.jsx';
 import SignUp from './Component/SignUp.jsx';
 import Home from './Component/Home.jsx';
 import ProductPage from './Component/ProductPage.jsx';
