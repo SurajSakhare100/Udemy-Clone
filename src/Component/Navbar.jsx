@@ -23,7 +23,7 @@ function Navbar() {
                     <li className='hidden'><NavLink to="/ss">
                         <button className='w-full h-ful text-sm font-bold rounded-sm py-1 px-2 shadow-md'></button></NavLink>
                     </li>
-                    <li><NavLink to="/contact">Contact us</NavLink></li>
+                    <li><NavLink to="/contact">Contact Us</NavLink></li>
                     <li><NavLink to="/#">
                         <button className='w-full h-ful text-sm font-bold rounded-sm py-1 px-2 shadow-md'>{FaGlobe}</button></NavLink>
                     </li>
