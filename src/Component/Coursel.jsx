@@ -93,7 +93,7 @@ function Coursel({num}) {
                     <h1 className='font-[600]'>Online Courses {num}</h1>
                     <p className=''></p>
                 </div>
-                <div ref={container} className='flex items-center justify-between gap-2 overflow-hidden xl:gap-8 overflow-x-auto scroll-smooth w-100 p-[10px]'>
+                <div ref={container} className='flex items-center justify-between gap-4 overflow-hidden overflow-x-auto scroll-smooth w-100 p-[10px]'>
                     {cards.map((c) => (
                         <Product key={c.id} title={c.title} p_name={c.professorName} price={c.price} img={c.img} />
                     ))}

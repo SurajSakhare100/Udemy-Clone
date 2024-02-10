@@ -11,6 +11,7 @@ function Navbar() {
                         <button className='w-full h-ful text-sm font-bold rounded-sm py-1 px-2 shadow-md'>S</button>
                         </NavLink>
                     </li> */}
+                    <i className="bi bi-bank w-[10px] text-white h-[10px]" ></i>
                     <li><NavLink to="/">Udemy</NavLink></li>
                     <li><NavLink to="/categories">Categories</NavLink></li>
                     <li className='lg:w-1/2 lg:h-3/4 '>
