@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Product from './Product'
 import { useRef } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleRight, faRightFromBracket, faRightLong, faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 
 function Coursel({num}) {
     const cards = [
@@ -76,11 +78,14 @@ function Coursel({num}) {
         },
     ];
     const container=useRef();
+    const angle=useRef();
+    const [Coursel,setcoursel]=useState(faAngleRight);
     var a=true;
     const close=()=>{
         if(a){
             container.current.style.display='none';
             a=false;
+            angle.current.class='rotate-90';
         }else{
             container.current.style.display='';
             a=true;
@@ -91,7 +96,7 @@ function Coursel({num}) {
             <div className='my-4 lg:mx-24 md:mx-10 '>
                 <div className='flex justify-between px-[10px] cursor-pointer' onClick={()=>{close(a)}}>
                     <h1 className='font-[600]'>Online Courses {num}</h1>
-                    <p className=''></p>
+                    <p className=''><FontAwesomeIcon icon={Coursel} ref={angle} className='w-100 '/></p>
                 </div>
                 <div ref={container} className='flex items-center justify-between gap-4 overflow-hidden overflow-x-auto scroll-smooth w-100 p-[10px]'>
                     {cards.map((c) => (
